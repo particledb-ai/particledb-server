@@ -4,7 +4,6 @@ The database for AI agents: SQL, vector memory, key-value and live analytics in 
 
 - One server, one port (7173) for the native protocol, PostgreSQL clients, HTTP/JSON, gRPC and Redis (RESP) clients.
 - ParticleDB Studio, a web console with a SQL editor, dashboards and health checks, on port 7174.
-- Prometheus metrics on port 7175.
 
 This repository holds install instructions and links. The server source code is not published; see [License](#license).
 
@@ -31,7 +30,6 @@ particledb start --data-dir ./pdb-dev --no-auth
 |---|---|
 | Clients (native, PostgreSQL, HTTP, gRPC, Redis) | `127.0.0.1:7173` |
 | ParticleDB Studio | http://127.0.0.1:7174 |
-| Metrics | http://127.0.0.1:7175/metrics |
 
 ## First query
 
