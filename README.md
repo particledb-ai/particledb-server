@@ -31,6 +31,14 @@ particledb start --data-dir ./pdb-dev --no-auth
 | Clients (native, PostgreSQL, HTTP, gRPC, Redis) | `127.0.0.1:7173` |
 | ParticleDB Studio | http://127.0.0.1:7174 |
 
+## ParticleDB Studio
+
+Studio, the web console at http://127.0.0.1:7174, shows the server's health checks and dashboards.
+
+![Studio health checks](images/studio-health.png)
+
+![Studio dashboards](images/studio-dashboards.png)
+
 ## First query
 
 With `psql`:
